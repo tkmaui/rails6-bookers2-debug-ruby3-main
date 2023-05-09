@@ -12,6 +12,7 @@
     <%= render 'layouts/header', books: @books %>
       <main>
         <p id="notice"><%= notice %></p>
+        <%= yield %>
       </main>
     <%= render 'layouts/footer', books: @books %>
   </body>
